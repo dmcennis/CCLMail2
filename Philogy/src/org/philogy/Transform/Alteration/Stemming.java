@@ -4,7 +4,7 @@
  * Copyright Daniel McEnnis 2015
  */
 
-package org.philogy;
+package org.philogy.transform.alteration;
 
 /**
  * Default Description Interface Stemming

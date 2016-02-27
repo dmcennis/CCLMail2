@@ -4,7 +4,9 @@
  * Copyright Daniel McEnnis 2015
  */
 
-package org.philogy;
+package org.philogy.segmentation;
+
+import org.philogy.Operation;
 
 /**
  * Default Description Interface Segmentation

@@ -4,7 +4,9 @@
  * Copyright Daniel McEnnis 2015
  */
 
-package org.philogy;
+package org.philogy.textsource.textcomponent;
+
+import org.philogy.textsource.TextSource;
 
 /**
  * Default Description Interface TextComponent

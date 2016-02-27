@@ -6,7 +6,7 @@
 
 package org.hermeneutics;
 
-import org.philogy.Aggregation;
+import org.philogy.transform.aggregation.Aggregation;
 
 /**
  * Default Description Interface FeatureVector

@@ -6,8 +6,10 @@
 
 package org.philogy;
 
+import org.dynamicfactory.Creatable;
+
 /**
  * Default Description Interface Operation
  */
-public interface Operation {
+public interface Operation extends Creatable<Operation> {
 }

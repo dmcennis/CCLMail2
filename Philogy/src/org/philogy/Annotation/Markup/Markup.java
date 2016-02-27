@@ -4,7 +4,7 @@
  * Copyright Daniel McEnnis 2015
  */
 
-package org.philogy;
+package org.philogy.annotation.markup;
 
 /**
  * Default Description Interface Markup

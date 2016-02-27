@@ -6,8 +6,7 @@
 
 package org.hermeneutics;
 
-import org.philogy.Classification;
-import org.philogy.Labels;
+import org.philogy.annotation.labels.Classification;
 
 /**
  * Default Description Interface LanguageClass

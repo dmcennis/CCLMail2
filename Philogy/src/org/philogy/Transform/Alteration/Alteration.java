@@ -4,7 +4,9 @@
  * Copyright Daniel McEnnis 2015
  */
 
-package org.philogy;
+package org.philogy.transform.alteration;
+
+import org.philogy.transform.Transform;
 
 /**
  * Default Description Interface Alteration
