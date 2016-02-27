@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CCLMail2.iml" filepath="$PROJECT_DIR$/CCLMail2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CCLMailInterface/CCLMailInterface.iml" filepath="$PROJECT_DIR$/CCLMailInterface/CCLMailInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClassifierInterface/ClassifierInterface.iml" filepath="$PROJECT_DIR$/ClassifierInterface/ClassifierInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Philogy/Philogy.iml" filepath="$PROJECT_DIR$/Philogy/Philogy.iml" />
+    </modules>
+  </component>
+</project>
