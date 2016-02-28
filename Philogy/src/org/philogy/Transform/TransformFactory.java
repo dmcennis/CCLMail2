@@ -45,15 +45,11 @@ public class TransformFactory extends org.dynamicfactory.AbstractFactory<Transfo
             Logger.getLogger(this.getClass().getName()).log(Level.WARNING,"The properties object passed to TransformFactory is null - using a default");
             return (map.get("Default")).duplicate();
         }
-        if((props.get("Transform")==null)||(props.get("Transform").getType().getClass()!=String.class)||(props.get("Transform").getValue()==null)||(props.get("Tranform").getValue().size()==0)||(!map.containsKey(props.get("Transform").getValue().get(0)))){
+        if(props.quickCheck("ClassName",String.class)){
             Logger.getLogger(this.getClass().getName()).log(Level.WARNING,"The properties object passed to TransformFactory has no class type defined - using a default");
             return (map.get("Default").duplicate(props));
         }
-        return map.get(props.get("Transform").getValue().get(0)).duplicate(props);
+        return map.get(props.get("Transform").getValue().get(0)).duplicate(props.merge(properties));
     }
 
-    @Override
-    public Parameter getClassParameter() {
-        return properties.get("Transform");
-    }
 }
