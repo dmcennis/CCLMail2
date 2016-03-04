@@ -6,10 +6,17 @@
 
 package org.philogy.transform.aggregation;
 
+import org.dynamicfactory.descriptors.Properties;
+import org.philogy.Operation;
 import org.philogy.transform.Transform;
 
 /**
  * Default Description Interface Aggregation
  */
 public interface Aggregation extends Transform {
+    @Override
+    Aggregation prototype();
+
+    @Override
+    Aggregation prototype(Properties props);
 }

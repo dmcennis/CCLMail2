@@ -25,12 +25,11 @@ public class AlterationFactory extends AbstractFactory<Alteration>{
 
     @Override
     public Alteration create(Properties props) {
-        Alteration ret=null;
         if(props == null){
             Logger.getLogger(this.getClass().getName()).log(Level.WARNING,"The properties object passed to TransformFactory is null - using a default");
             return (map.get("Default")).duplicate();
         }
-        if((props.get("Transform")==null)||(props.get("ClassName").getType().getClass()!=String.class)||(props.get("Transform").getValue()==null)||(props.get("Tranform").getValue().size()==0)||(!map.containsKey(props.get("Transform").getValue().get(0)))){
+        if(!props.quickCheck("ClassType",String.class)){
             Logger.getLogger(this.getClass().getName()).log(Level.WARNING,"The properties object passed to TransformFactory has no class type defined - using a default");
             return (map.get("Default").duplicate(props));
         }
