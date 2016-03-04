@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/CCLMail2.iml" filepath="$PROJECT_DIR$/CCLMail2.iml" />
       <module fileurl="file://$PROJECT_DIR$/CCLMailInterface/CCLMailInterface.iml" filepath="$PROJECT_DIR$/CCLMailInterface/CCLMailInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClassifierInterface/ClassifierInterface.iml" filepath="$PROJECT_DIR$/ClassifierInterface/ClassifierInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynamicFactory/DynamicFactory.iml" filepath="$PROJECT_DIR$/DynamicFactory/DynamicFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Philogy/Philogy.iml" filepath="$PROJECT_DIR$/Philogy/Philogy.iml" />
     </modules>
   </component>
