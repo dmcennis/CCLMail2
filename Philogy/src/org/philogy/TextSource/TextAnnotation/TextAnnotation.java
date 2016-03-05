@@ -12,4 +12,7 @@ import org.philogy.textsource.TextSource;
  * Default Description Interface TextAnnotation
  */
 public interface TextAnnotation extends TextSource {
+
+    TextSource getTextSource();
+
 }
