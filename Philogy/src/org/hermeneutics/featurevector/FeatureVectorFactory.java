@@ -1,4 +1,4 @@
-package org.hermeneutics;
+package org.hermeneutics.featurevector;
 
 /**
  * Created by Daniel McEnnis on 2/28/2016

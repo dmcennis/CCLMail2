@@ -6,8 +6,14 @@
 
 package org.hermeneutics.similarity;
 
+import org.hermeneutics.featurevector.FeatureVector;
+
 /**
- * Default Description Interface Similarity
+ * Similarity
+ *
+ * <p>Produces a single number representing distance between two feature vectors by some mechanism. This function can be
+ * highly problematic for feature vectors with numerous enumerated components</p>
  */
-public interface Similarity {
+public interface Similarity<Type extends FeatureVector> {
+    double similarity(Type left, Type right);
 }
